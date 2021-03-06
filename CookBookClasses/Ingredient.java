@@ -164,10 +164,7 @@ modification if the user chooses to update a recipe .
         
         System.out.println("With " + numberCups + " cups at " + numberCaloriesPerCup + " calories per cup.");
         System.out.println("That is a grand total of " + totalCalories + " calories for this ingredient.");
-        /*
-        Note This line below is supposed to add it to an ArrayList but it will not cooperate.
-        */
-        //Ingredients.add(addIngredient());
+
         
     }
 
