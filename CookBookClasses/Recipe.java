@@ -49,9 +49,6 @@ public class Recipe {
         this.totalRecipeCalories = totalRecipeCalories;
     }
     
-    /*
-    This prints the Recipe and its ingredients.
-    */
 
     
     /*
@@ -107,11 +104,11 @@ public class Recipe {
         return addNewRecipe(tmpRecipe);
     }
     public void printRecipe(){
+        
         /*
         singleServing variable will always create an exception due to dividing by 0
-        As it stands, I have no work around for this.
-        I had the same issue in an earlier assingment and still have no been able to fix it.
         */
+        
         int singleServing = ((int)totalRecipeCalories/servings);
         
        System.out.println("Recipe: " + recipeName);
